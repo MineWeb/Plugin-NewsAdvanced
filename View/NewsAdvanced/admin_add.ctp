@@ -16,7 +16,7 @@
             </div>
 
             <div class="form-group">
-              <label>URL de la miniature</label>
+              <label><?= $Lang->get('NEWSA_URL_THUMBNAIL') ?></label>
               <input name="img" class="form-control" placeholder="Miniature" type="text">
             </div>
 
