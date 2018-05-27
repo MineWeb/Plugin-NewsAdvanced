@@ -257,7 +257,7 @@ class NewsAdvancedController extends AppController {
 						'updated' => date('Y-m-d H:i:s'),
 						'comments' => 0,
 						'likes' => 0,
-						'img' => $this->request->data['title'],
+						'img' => $this->request->data['img'],
 						'slug' => Inflector::slug($this->request->data['slug'], '-'),
 						'published' => $this->request->data['published']
 					));
