@@ -30,14 +30,3 @@ Ce plugin vous permet d'afficher des miniatures aux news
 ```
 
 Cela va renvoyer l'URL de la miniature que vous avez entrez lors de la création de la news. (Pensez à changer la variable `$v` avec celle que vous utilisez pour vos appels.)
-
-**Vérifier si le plugin est installé :**
-
-
-```PHP
-<?php if($EyPlugin->isInstalled('empiredev.newsadvanced')){ ?>
-<?php } ?>
-
-```
-
-Permet de vérifier si le plugin est installé (pour éviter une erreur si la colonne `img` n'existe pas). Vous devez utiliser les fonctionnalités du plugin à l'intérieur de cette condition..
