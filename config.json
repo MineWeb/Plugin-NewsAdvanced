@@ -1,1 +1,16 @@
-{"name":"NewsAdvanced","author":"EmpireDev","version":"1.0.0","apiID":144,"useEvents":false,"permissions":{"available":[],"default":{"0":[],"2":[]}},"requirements":{"CMS":"^1.2.0"}}
+{
+    "name": "NewsAdvanced",
+    "author": "EmpireDev",
+    "version": "1.0.1",
+    "useEvents": false,
+    "permissions": {
+        "available": [],
+        "default": {
+            "0": [],
+            "2": []
+        }
+    },
+    "requirements": {
+        "CMS": "^1.11.0"
+    }
+}
